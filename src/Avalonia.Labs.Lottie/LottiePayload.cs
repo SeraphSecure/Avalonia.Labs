@@ -1,3 +1,4 @@
+using System;
 using Avalonia.Media;
 
 namespace Avalonia.Labs.Lottie;

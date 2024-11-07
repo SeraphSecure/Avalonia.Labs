@@ -65,8 +65,8 @@ public class Lottie : Control
     [Content]
     public string? Path
     {
-        get { return GetValue(PathProperty); }
-        set { SetValue(PathProperty, value); }
+        get => GetValue(PathProperty);
+        set => SetValue(PathProperty, value);
     }
 
     /// <summary>
@@ -92,8 +92,8 @@ public class Lottie : Control
     /// </summary>
     public int RepeatCount
     {
-        get { return GetValue(RepeatCountProperty); }
-        set { SetValue(RepeatCountProperty, value); }
+        get => GetValue(RepeatCountProperty);
+        set => SetValue(RepeatCountProperty, value);
     }
 
     /// <summary>
@@ -101,8 +101,8 @@ public class Lottie : Control
     /// </summary>
     public bool AutoPlay
     {
-        get { return GetValue(AutoPlayProperty); }
-        set { SetValue(AutoPlayProperty, value); }
+        get => GetValue(AutoPlayProperty);
+        set => SetValue(AutoPlayProperty, value);
     }
 
     /// <summary>
@@ -355,8 +355,8 @@ public class Lottie : Control
                 Stretch,
                 StretchDirection,
                 _repeatCount,
-                OnAnimationCompleted,
-                OnAnimationCompletedRepetition));
+                OnAnimationCompleted: OnAnimationCompleted,
+                OnAnimationCompletedRepetition: OnAnimationCompletedRepetition));
     }
 
     /// <summary>

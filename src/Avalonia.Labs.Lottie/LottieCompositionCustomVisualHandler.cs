@@ -162,7 +162,7 @@ internal class LottieCompositionCustomVisualHandler : CompositionCustomVisualHan
             return;
         }
 
-        progress = Math.Clamp(progress, 0, 1);
+        progress = Math.Min(Math.Max(progress, 0), 1);
         _animationElapsed = TimeSpan.FromSeconds(_animation.Duration.TotalSeconds * progress);
         Invalidate();
         RegisterForNextAnimationFrameUpdate();
