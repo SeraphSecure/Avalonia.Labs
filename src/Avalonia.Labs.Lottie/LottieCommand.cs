@@ -1,4 +1,4 @@
-namespace Avalonia.Labs.Lottie;
+namespace SeraphSecure.AvaloniaLottie;
 
 internal enum LottieCommand
 {

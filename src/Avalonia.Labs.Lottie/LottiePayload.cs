@@ -1,7 +1,7 @@
 using System;
 using Avalonia.Media;
 
-namespace Avalonia.Labs.Lottie;
+namespace SeraphSecure.AvaloniaLottie;
 
 internal record struct LottiePayload(
     LottieCommand LottieCommand,

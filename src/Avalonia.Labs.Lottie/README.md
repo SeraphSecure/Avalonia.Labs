@@ -1,6 +1,10 @@
-# Avalonia.Skia.Lottie
+# SeraphSecure.AvaloniaLottie
 
-An lottie animation player control for Avalonia.
+A Lottie animation player control for Avalonia.
+
+This fork implements playback control functions for Lottie animations - play, pause, stop, and seek.
+
+For the original readme and documentation, please see: https://github.com/AvaloniaUI/Avalonia.Labs/tree/main/src/Avalonia.Labs.Lottie
 
 ## Usage
 

@@ -1,7 +1,7 @@
 using System;
 using Avalonia.Markup.Xaml;
 
-namespace Avalonia.Labs.Lottie;
+namespace SeraphSecure.AvaloniaLottie;
 
 internal static class ServiceProviderExtensions
 {

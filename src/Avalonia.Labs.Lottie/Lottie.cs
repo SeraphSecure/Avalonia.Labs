@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Numerics;
+using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Logging;
@@ -10,7 +11,7 @@ using Avalonia.Platform;
 using Avalonia.Rendering.Composition;
 using SkiaSharp;
 
-namespace Avalonia.Labs.Lottie;
+namespace SeraphSecure.AvaloniaLottie;
 
 /// <summary>
 /// Lottie animation player control.

@@ -1,11 +1,12 @@
 using System;
+using Avalonia;
 using Avalonia.Media;
 using Avalonia.Platform;
 using Avalonia.Rendering.Composition;
 using Avalonia.Skia;
 using SkiaSharp;
 
-namespace Avalonia.Labs.Lottie;
+namespace SeraphSecure.AvaloniaLottie;
 
 internal class LottieCompositionCustomVisualHandler : CompositionCustomVisualHandler
 {
